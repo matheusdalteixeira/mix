@@ -1,0 +1,284 @@
+body{
+	background: black;
+}
+.container-fluid{
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: block;
+	float: left;
+}
+.container-fluid:nth-child(2), .container-fluid:nth-child(3){
+	position: absolute !important;
+	background: white;
+}
+.row{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#meuNav{
+	z-index: 2;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	padding: 30px 0;
+	background: transparent !important;
+}
+#meuNav img{
+	line-height: 15px !important;
+	width: auto !important;
+	height: 60px !important;
+}
+#meuNav>a.navbar-brand{
+	position: absolute;
+	margin-left: 20px;
+	left: 0;
+}
+#meuNav>div>ul.navbar-nav{
+	position: absolute;
+	margin-right: 20px !important;
+	right: 0 !important;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-color-white{
+	color: white !important;
+}
+.text-color-black{
+	color: black !important;
+}
+.text-color-orange{
+	color: #e65100 !important;
+}
+.text-color-azul{
+	color: #1C2331;
+}
+.active{
+	font-weight: bold !important;
+}
+.left26{
+	left: 26%;
+}
+.left46{
+	left: 46%;
+}
+.left0{
+	left: 0;
+}
+.fontSMALLrem{
+	font-size: 0.8rem !important;
+}
+.fontMEDIUMrem{
+	font-size: 1rem !important;
+}
+.fontBIGrem{
+	font-size: 1.2rem !important;
+}
+.fontMEDIUMBIGrem{
+	font-size: 1.5rem !important;
+}
+.fontVERYBIGrem{
+	font-size: 2rem !important;
+}
+.dimenciona-botao{
+	height: 30px !important;
+	margin-top: 5px !important;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 14px;
+}
+.dimenciona-botao2{
+	width: 350px !important;
+}
+.botao-vermelho-vazio{
+	color: #dc3545;
+	background: transparent;
+	border: 1px solid #dc3545;
+}
+.botao-vermelho-vazio:hover{
+	color: white;
+	background: #dc3545;
+	cursor: pointer;
+}
+.botao-vermelho-cheio{
+	color: white;
+	background: #dc3545;
+	border: 1px solid #dc3545;
+}
+.botao-vermelho-cheio:hover{
+	opacity: 50%;
+	cursor: pointer;
+}
+.botao-orange-cheio{
+	color: white;
+	background: #e65100;
+	border: none;
+}
+.border-radius7{
+	border-radius: 7px;
+}
+.botao-orange-cheio:hover{
+	opacity: 50%;
+	cursor: pointer;
+}
+.botao-azul-cheio{
+	background: #428bca;
+	color: white;
+	border: none;
+}
+.botao-azul-cheio:hover{
+	opacity: 50%;
+	cursor: pointer;
+}
+span.navbar-toggler-icon{
+	position: absolute;
+	right: 0 !important;
+	float: right !important;
+	margin-right: 20px;
+}
+#adicionais{
+	width: 90%;
+	padding-left: 0;
+	margin-left: 5%;
+	position: absolute;
+	top:250px;
+	left: 0;
+	z-index: 3;
+	text-align: center;
+}
+.blocos{
+	width: 33% !important;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+.blocosEspecial{
+	width: 34% !important;
+}
+.minhaCol{
+	text-align: left;
+	width: 48% !important;
+	margin-left: 1% !important;
+	/*margin-right: 1% !important;*/
+	padding: 0 !important;
+	display: block;
+	/*float: left;*/
+}
+.minhaCol_tipo_mobile{
+	text-align: left;
+	width: 98% !important;
+	margin-left: 1% !important;
+	/*margin-right: 1% !important;*/
+	padding: 0 !important;
+	display: block;
+	/*float: left;*/
+}
+.minhaCol2{
+	position: relative;
+	width: 44%;
+	margin-left: 5%;
+	margin-right: 1%;
+}
+.minhaCol2Especial{
+	margin-left: 1%;
+	margin-right: 5%;
+}
+.minhaCol2Video{
+	position: relative;
+	width: 19%;
+	margin-left: 5%;
+	margin-right: 0.5%;
+}
+.minhaCol2VideoMaterial{
+	width: 28%;
+	margin-left: 1%;
+	margin-right: 0.5%;
+}
+.minhaCol2VideoMaterial-first-child{
+	width: 24% !important;
+	margin-left: 5% !important;
+}
+.minhaCol2VideoMaterialEspecial{
+	width: 14%;
+	margin-left: 1%;
+	margin-right: 5%;
+}
+.minhaCol4{
+	position: relative;
+	width: 19%;
+	margin-left: 5%;
+	margin-right: 1%;			
+}
+.minhaCol4Especial{
+	margin-left: 1%;			
+}
+.minhaCol5{
+	position: relative;
+	width: 12.5%;
+	margin-left: 5%;
+	margin-right: 2.5%;			
+}
+.minhaCol5Especial{
+	margin-left: 2.5%;			
+}
+.minhaColResto{
+	width: calc(100% - 43.5%);
+}
+#adicionais h1, #adicionais h2, #adicionais button{
+	font-family: "brandon_bold", sans-serif;
+    font-weight: bolder;
+    line-height: normal;
+	text-align: center;
+}
+#adicionais h1{
+	color: white;
+}
+#adicionais button{
+	width: 280px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 5px;
+	padding: 1px !important;
+}
+#video{
+	position: absolute;
+	width: 100% !important;
+	height: auto !important;
+	top: 0px;
+	left: 0;
+	opacity: 50%;
+}
+#video>img{
+	width: 100%;
+	height: auto;
+}
+.tipos{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+	float: left;
+}
+.card1{
+	position: relative;
+}
+.card1 p{
+	width:100%;
+}
+.texto-card-especial{
+	width: 85% !important;
+}
+.card1 h5, .card1 p, .card1 button{
+	margin-top: 10px;
+	/*margin-left: 10px;*/
+}

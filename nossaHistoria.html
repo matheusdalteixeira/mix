@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Mix&Match - Inglês pra quem tem pressa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<style type="text/css">
+		body{
+			background: black;
+		}
+		.container-fluid{
+			padding: 0;
+			float: left;
+		}
+		.container-fluid:nth-child(1){
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+		.container-fluid:nth-child(2){
+			position: absolute;
+			width: 100%;
+			height: auto;
+			display: block;
+			float: left;
+		}
+		#meuNav{
+			position: relative;
+			margin-top: 20px !important;
+			margin-bottom: 20px !important;
+			padding: 30px 0;
+			background: transparent !important;
+			/*height: 100px;*/
+		}
+	  	#meuNav img{
+	  		line-height: 15px !important;
+	  		width: auto !important;
+	  		height: 60px !important;
+	  	}
+	  	#meuNav>a.navbar-brand, #meuNav>a.navbar-brand>img{
+	  		position: absolute;
+	  		top: 5px;
+	  		margin-left: 0px;
+	  		left: 0;
+	  	}
+	  	#meuNav>a.navbar-brand>img{
+	  		top: 0 !important;
+	  		width: 90px;
+	  	}
+		#meuNav>div>ul.navbar-nav{
+			position: absolute;
+			margin-right: 0px !important;
+			right: 0 !important;
+		}
+		#formulario, #formulario>div:first-child, #formulario img, #formulario form{
+			position: relative;
+			display: block;
+			float: left;
+		}
+		#formulario>div:first-child img{
+			width: 100%;
+			height: auto;
+		}
+		.linha-branca{
+			height: 2px !important;
+			background-color: white !important;
+			margin-bottom: 20px;
+		}
+		.uppercase{
+			text-transform: uppercase;
+		}
+		.text-center{
+			text-align: center;
+		}
+		.text-justify{
+			text-align: justify;
+		}
+		.text-left{
+			text-align: left;
+		}
+		.text-color-white{
+			color: white;
+		}
+		.text-color-black{
+			color: black;
+		}
+		.text-color-orange{
+			color: #e65100;
+		}
+		.text-color-azul{
+			color: #1C2331;
+		}
+		.left26{
+			left: 26%;
+		}
+		.left46{
+			left: 46%;
+		}
+		.left0{
+			left: 0;
+		}
+		.fontSMALLrem{
+			font-size: 0.8rem !important;
+		}
+		.fontMEDIUMrem{
+			font-size: 1rem !important;
+		}
+		.fontBIGrem{
+			font-size: 1.2rem !important;
+		}
+		.fontMEDIUMBIGrem{
+			font-size: 1.5rem !important;
+		}
+		.fontVERYBIGrem{
+			font-size: 2rem !important;
+		}
+		.dimenciona-botao{
+			height: 30px !important;
+			margin-top: 5px !important;
+			padding-left: 25px;
+			padding-right: 25px;
+			line-height: 14px !important;
+		}
+		.botao-vermelho-vazio{
+			color: #dc3545;
+			background: transparent;
+			border: 1px solid #dc3545;
+		}
+		.botao-vermelho-vazio:hover{
+			color: white;
+			background: #dc3545;
+			cursor: pointer;
+		}
+		.botao-vermelho-cheio{
+			color: white;
+			background: #dc3545;
+			border: 1px solid #dc3545;
+		}
+		.botao-vermelho-cheio:hover{
+			opacity: 50%;
+			cursor: pointer;
+		}
+		.botao-orange-cheio{
+			color: white;
+			background: #e65100;
+			border: none;
+		}
+		.botao-orange-cheio:hover{
+			opacity: 50%;
+			cursor: pointer;
+		}
+		.botao-azul-cheio{
+			background: #428bca;
+			color: white;
+			border: none;
+		}
+		.botao-azul-cheio:hover{
+			opacity: 50%;
+			cursor: pointer;
+		}
+		.border-radius7{
+			border-radius: 7px;
+		}
+	    span.navbar-toggler-icon{
+	    	position: absolute;
+	    	right: 0 !important;
+	    	float: right !important;
+	    	margin-right: 20px;
+	    }
+		.minhaCol{
+			position: relative;
+			text-align: center;
+			width: 98% !important;
+			margin-left: 1%;
+			margin-right: 1%;
+			padding: 0;
+		}
+		.minhaCol2{
+			position: relative;
+			display: block;
+			float: left;
+			width: 49% !important;
+			margin-left: 0;
+			margin-right: 1%;
+		}
+		.minhaColEspec{
+			margin-left: 1% !important;
+			margin-right: 0 !important;
+		}
+		.colFor{
+			position: relative;
+			display: block;
+			float: left;
+			width: 48% !important;
+			margin-left: 0;
+			margin-right: 2%;
+		}
+		.colForEsp{
+			margin-left: 2% !important;
+			margin-right: 0 !important;	
+		}
+		.minhaCol4{
+			position: absolute;
+			width: 20%;
+			margin-left: 0;
+			margin-right: 1%;			
+		}
+		.container-fluid:nth-child(2){
+			width: 100%;
+			height: auto;
+			display: block;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<nav id="meuNav" class="navbar navbar-expand-lg navbar-dark bg-dark minhaCol">
+		  	<a class="navbar-brand" href="index.html"><img src="logo2.png"></a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+		    <span class="navbar-toggler-icon"></span>
+		  	</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active uppercase">
+						<a class="nav-link" href="nossaHistoria">nossa história <span class="sr-only">(Página atual)</span></a>
+					</li>
+					<li class="nav-item uppercase">
+						<a class="nav-link"href="contaato.html">Contato</a>
+					</li>
+					<li class="nav-item uppercase">
+						<a class="nav-link" href="presencial.html">Nossos cursos</a>
+					</li>
+				  	<button class="btn btn-danger dimenciona-botao my-2 my-sm-0" type="submit">Entrar</button>
+				</ul>
+			</div>
+		</nav>
+		<div id="formulario" class="minhaCol">
+			<div class="minhaCol2"><img src="frente.png"></div>
+			<div class="minhaCol2 minhaColEspec text-left">
+				<h1 class="text-color-white text-center">Origem da Mix & Match</h1>
+				<p class="text-color-white text-justify">
+					Mix and Match Idiomas surgiu, de um lado, a partir da constatação da falta, no país, de cursos
+					de idiomas dedicados e focados em uma entrega acelerada de fluência em línguas
+					estrangeiras, com uma abordagem mais direta e prática ao idioma lecionado; e de outro lado,
+					da falta de empresas de franchising que tivessem um valor de investimento realmente
+					adequado a um maior número de pessoas e que prezassem pela facilidade e eficácia que o
+					sistema de franquias pode proporcionar. Através de uma análise do mercado, constatamos
+					que: PRIMEIRO: A necessidade pelo conhecimento de idiomas estrangeiros tem crescido de
+					forma ainda mais acelerada com a disseminação exponencial ( impulsionada massivamente
+					desde a comercialização doméstica da Internet ) e de programas culturais e acadêmicos entre
+					países globalmente. Praticamente 100% dos profissionais, estudantes e turistas compartilham
+					da necessidade do domínio de outro idioma. Contudo, até hoje os programas de ensino de
+					idiomas presentes no mercado Brasileiro, em sua maioria, visam a captação de alunos com o
+					intuito de mantê-lo ativo como pagante dentro da instituição de ensino pelo tempo máximo
+					possível. Exigia-se, evidentemente, o surgimento da quebra dessa cultura comercial no Brasil,
+					onde a oferta de um programa de ensino que evidenciasse o tempo reduzido (real) para
+					entrega da fluência resultasse em um fluxo maior e mais satisfeito de alunos dentro de nosso
+					currículo didático.
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="contato.js"></script>
+</body>
+</html>
